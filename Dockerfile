@@ -23,7 +23,7 @@ RUN \
     && \
     apt-get install --no-install-recommends -y \
         catatonit \
-        intel-gpu-tools \
+        # intel-gpu-tools \
     && pip install --requirement requirements.txt \
     && apt-get purge -y --auto-remove -o APT::AutoRemove::RecommendsImportant=false \
     && apt-get autoremove -y \
