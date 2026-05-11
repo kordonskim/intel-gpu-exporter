@@ -1,8 +1,8 @@
 name: rolling
 
 on:
-  push:
-    branches: ["main", "dev"]
+  #push:
+  #  branches: ["main", "dev"]
 
 jobs:
   build:
